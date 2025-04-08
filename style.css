@@ -1,0 +1,283 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    direction: rtl;
+    background-color: #2c3e50; /* الخلفية الرمادية الزرقاء الجامدة */
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* الشريط العلوي */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a252f;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+/* الصفحة الرئيسية */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2c3e50; /* اللون بدل الصورة */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(198, 195, 195, 0.3); /* طبقة خفيفة للعمق */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid hwb(64 3% 0% / 0.832)%, 0.655)%, 0.655)%, 0.655)%, 0.655)%, 0.655)%, 0.655)%, 0.655)%, 0.655), 0.655);
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #ddd;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.extra-info {
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* الأقسام */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.intro-section {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* السيرة الذاتية */
+.bio-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bio-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.bio-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* التلاوات */
+.recitation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recitation-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recitation-card h3 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.recitation-actions {
+    margin-top: 15px;
+}
+
+.recitation-actions .btn {
+    margin: 0 5px;
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+/* معرض الصور */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+/* التواصل */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    width: 100%;
+}
+
+/* زر العودة للأعلى */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+.back-to-top:hover {
+    background-color: #2980b9;
+}
+
+/* التذييل */
+footer {
+    background-color: #1a252f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* الرسوم المتحركة */
+.animate-header {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.animate-hero {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.animate-section {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

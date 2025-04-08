@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشيخ محمد صديق المنشاوي - التلاوات</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="animate-header">
+        <div class="navbar">
+            <div class="logo">
+                <h1>الشيخ محمد صديق المنشاوي</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="bio.html">قصة حياة المنشاوي</a></li>
+                    <li><a href="recitations.html">منشاويات</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="recitations" class="section animate-section">
+        <h2>التلاوات المختارة</h2>
+        <p class="intro-text">استمتع بأجمل تلاوات الشيخ محمد صديق المنشاوي بصوته الباكي.</p>
+        <div class="recitation-grid">
+            <!-- 1 - سورة الفاتحة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الفاتحة</h3>
+                <audio id="surah-001" src="https://server10.mp3quran.net/minsh/001.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/001.mp3', 'سورة الفاتحة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الفاتحة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 2 - سورة البقرة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة البقرة</h3>
+                <audio id="surah-002" src="https://server10.mp3quran.net/minsh/002.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/002.mp3', 'سورة البقرة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة البقرة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 3 - سورة آل عمران -->
+            <div class="recitation-card animate-card">
+                <h3>سورة آل عمران</h3>
+                <audio id="surah-003" src="https://server10.mp3quran.net/minsh/003.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/003.mp3', 'سورة آل عمران')" class="btn">تحميل</button>
+                    <button onclick="share('سورة آل عمران')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 4 - سورة النساء -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النساء</h3>
+                <audio id="surah-004" src="https://server10.mp3quran.net/minsh/004.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/004.mp3', 'سورة النساء')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النساء')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 5 - سورة المائدة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المائدة</h3>
+                <audio id="surah-005" src="https://server10.mp3quran.net/minsh/005.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/005.mp3', 'سورة المائدة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المائدة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 6 - سورة الأنعام -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الأنعام</h3>
+                <audio id="surah-006" src="https://server10.mp3quran.net/minsh/006.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/006.mp3', 'سورة الأنعام')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الأنعام')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 7 - سورة الأعراف -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الأعراف</h3>
+                <audio id="surah-007" src="https://server10.mp3quran.net/minsh/007.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/007.mp3', 'سورة الأعراف')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الأعراف')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 8 - سورة الأنفال -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الأنفال</h3>
+                <audio id="surah-008" src="https://server10.mp3quran.net/minsh/008.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/008.mp3', 'سورة الأنفال')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الأنفال')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 9 - سورة التوبة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة التوبة</h3>
+                <audio id="surah-009" src="https://server10.mp3quran.net/minsh/009.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/009.mp3', 'سورة التوبة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة التوبة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 10 - سورة يونس -->
+            <div class="recitation-card animate-card">
+                <h3>سورة يونس</h3>
+                <audio id="surah-010" src="https://server10.mp3quran.net/minsh/010.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/010.mp3', 'سورة يونس')" class="btn">تحميل</button>
+                    <button onclick="share('سورة يونس')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 11 - سورة هود -->
+            <div class="recitation-card animate-card">
+                <h3>سورة هود</h3>
+                <audio id="surah-011" src="https://server10.mp3quran.net/minsh/011.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/011.mp3', 'سورة هود')" class="btn">تحميل</button>
+                    <button onclick="share('سورة هود')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 12 - سورة يوسف -->
+            <div class="recitation-card animate-card">
+                <h3>سورة يوسف</h3>
+                <audio id="surah-012" src="https://server10.mp3quran.net/minsh/012.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/012.mp3', 'سورة يوسف')" class="btn">تحميل</button>
+                    <button onclick="share('سورة يوسف')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 13 - سورة الرعد -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الرعد</h3>
+                <audio id="surah-013" src="https://server10.mp3quran.net/minsh/013.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/013.mp3', 'سورة الرعد')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الرعد')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 14 - سورة إبراهيم -->
+            <div class="recitation-card animate-card">
+                <h3>سورة إبراهيم</h3>
+                <audio id="surah-014" src="https://server10.mp3quran.net/minsh/014.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/014.mp3', 'سورة إبراهيم')" class="btn">تحميل</button>
+                    <button onclick="share('سورة إبراهيم')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 15 - سورة الحجر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الحجر</h3>
+                <audio id="surah-015" src="https://server10.mp3quran.net/minsh/015.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/015.mp3', 'سورة الحجر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الحجر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 16 - سورة النحل -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النحل</h3>
+                <audio id="surah-016" src="https://server10.mp3quran.net/minsh/016.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/016.mp3', 'سورة النحل')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النحل')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 17 - سورة الإسراء -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الإسراء</h3>
+                <audio id="surah-017" src="https://server10.mp3quran.net/minsh/017.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/017.mp3', 'سورة الإسراء')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الإسراء')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 18 - سورة الكهف -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الكهف</h3>
+                <audio id="surah-018" src="https://server10.mp3quran.net/minsh/018.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/018.mp3', 'سورة الكهف')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الكهف')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 19 - سورة مريم -->
+            <div class="recitation-card animate-card">
+                <h3>سورة مريم</h3>
+                <audio id="surah-019" src="https://server10.mp3quran.net/minsh/019.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/019.mp3', 'سورة مريم')" class="btn">تحميل</button>
+                    <button onclick="share('سورة مريم')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 20 - سورة طه -->
+            <div class="recitation-card animate-card">
+                <h3>سورة طه</h3>
+                <audio id="surah-020" src="https://server10.mp3quran.net/minsh/020.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/020.mp3', 'سورة طه')" class="btn">تحميل</button>
+                    <button onclick="share('سورة طه')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 21 - سورة الأنبياء -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الأنبياء</h3>
+                <audio id="surah-021" src="https://server10.mp3quran.net/minsh/021.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/021.mp3', 'سورة الأنبياء')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الأنبياء')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 22 - سورة الحج -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الحج</h3>
+                <audio id="surah-022" src="https://server10.mp3quran.net/minsh/022.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/022.mp3', 'سورة الحج')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الحج')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 23 - سورة المؤمنون -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المؤمنون</h3>
+                <audio id="surah-023" src="https://server10.mp3quran.net/minsh/023.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/023.mp3', 'سورة المؤمنون')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المؤمنون')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 24 - سورة النور -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النور</h3>
+                <audio id="surah-024" src="https://server10.mp3quran.net/minsh/024.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/024.mp3', 'سورة النور')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النور')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 25 - سورة الفرقان -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الفرقان</h3>
+                <audio id="surah-025" src="https://server10.mp3quran.net/minsh/025.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/025.mp3', 'سورة الفرقان')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الفرقان')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 26 - سورة الشعراء -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الشعراء</h3>
+                <audio id="surah-026" src="https://server10.mp3quran.net/minsh/026.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/026.mp3', 'سورة الشعراء')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الشعراء')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 27 - سورة النمل -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النمل</h3>
+                <audio id="surah-027" src="https://server10.mp3quran.net/minsh/027.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/027.mp3', 'سورة النمل')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النمل')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 28 - سورة القصص -->
+            <div class="recitation-card animate-card">
+                <h3>سورة القصص</h3>
+                <audio id="surah-028" src="https://server10.mp3quran.net/minsh/028.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/028.mp3', 'سورة القصص')" class="btn">تحميل</button>
+                    <button onclick="share('سورة القصص')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 29 - سورة العنكبوت -->
+            <div class="recitation-card animate-card">
+                <h3>سورة العنكبوت</h3>
+                <audio id="surah-029" src="https://server10.mp3quran.net/minsh/029.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/029.mp3', 'سورة العنكبوت')" class="btn">تحميل</button>
+                    <button onclick="share('سورة العنكبوت')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 30 - سورة الروم -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الروم</h3>
+                <audio id="surah-030" src="https://server10.mp3quran.net/minsh/030.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/030.mp3', 'سورة الروم')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الروم')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 31 - سورة لقمان -->
+            <div class="recitation-card animate-card">
+                <h3>سورة لقمان</h3>
+                <audio id="surah-031" src="https://server10.mp3quran.net/minsh/031.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/031.mp3', 'سورة لقمان')" class="btn">تحميل</button>
+                    <button onclick="share('سورة لقمان')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 32 - سورة السجدة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة السجدة</h3>
+                <audio id="surah-032" src="https://server10.mp3quran.net/minsh/032.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/032.mp3', 'سورة السجدة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة السجدة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 33 - سورة الأحزاب -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الأحزاب</h3>
+                <audio id="surah-033" src="https://server10.mp3quran.net/minsh/033.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/033.mp3', 'سورة الأحزاب')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الأحزاب')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 34 - سورة سبأ -->
+            <div class="recitation-card animate-card">
+                <h3>سورة سبأ</h3>
+                <audio id="surah-034" src="https://server10.mp3quran.net/minsh/034.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/034.mp3', 'سورة سبأ')" class="btn">تحميل</button>
+                    <button onclick="share('سورة سبأ')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 35 - سورة فاطر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة فاطر</h3>
+                <audio id="surah-035" src="https://server10.mp3quran.net/minsh/035.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/035.mp3', 'سورة فاطر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة فاطر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 36 - سورة يس -->
+            <div class="recitation-card animate-card">
+                <h3>سورة يس</h3>
+                <audio id="surah-036" src="https://server10.mp3quran.net/minsh/036.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/036.mp3', 'سورة يس')" class="btn">تحميل</button>
+                    <button onclick="share('سورة يس')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 37 - سورة الصافات -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الصافات</h3>
+                <audio id="surah-037" src="https://server10.mp3quran.net/minsh/037.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/037.mp3', 'سورة الصافات')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الصافات')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 38 - سورة ص -->
+            <div class="recitation-card animate-card">
+                <h3>سورة ص</h3>
+                <audio id="surah-038" src="https://server10.mp3quran.net/minsh/038.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/038.mp3', 'سورة ص')" class="btn">تحميل</button>
+                    <button onclick="share('سورة ص')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 39 - سورة الزمر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الزمر</h3>
+                <audio id="surah-039" src="https://server10.mp3quran.net/minsh/039.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/039.mp3', 'سورة الزمر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الزمر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 40 - سورة غافر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة غافر</h3>
+                <audio id="surah-040" src="https://server10.mp3quran.net/minsh/040.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/040.mp3', 'سورة غافر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة غافر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 41 - سورة فصلت -->
+            <div class="recitation-card animate-card">
+                <h3>سورة فصلت</h3>
+                <audio id="surah-041" src="https://server10.mp3quran.net/minsh/041.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/041.mp3', 'سورة فصلت')" class="btn">تحميل</button>
+                    <button onclick="share('سورة فصلت')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 42 - سورة الشورى -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الشورى</h3>
+                <audio id="surah-042" src="https://server10.mp3quran.net/minsh/042.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/042.mp3', 'سورة الشورى')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الشورى')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 43 - سورة الزخرف -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الزخرف</h3>
+                <audio id="surah-043" src="https://server10.mp3quran.net/minsh/043.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/043.mp3', 'سورة الزخرف')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الزخرف')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 44 - سورة الدخان -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الدخان</h3>
+                <audio id="surah-044" src="https://server10.mp3quran.net/minsh/044.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/044.mp3', 'سورة الدخان')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الدخان')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 45 - سورة الجاثية -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الجاثية</h3>
+                <audio id="surah-045" src="https://server10.mp3quran.net/minsh/045.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/045.mp3', 'سورة الجاثية')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الجاثية')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 46 - سورة الأحقاف -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الأحقاف</h3>
+                <audio id="surah-046" src="https://server10.mp3quran.net/minsh/046.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/046.mp3', 'سورة الأحقاف')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الأحقاف')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 47 - سورة محمد -->
+            <div class="recitation-card animate-card">
+                <h3>سورة محمد</h3>
+                <audio id="surah-047" src="https://server10.mp3quran.net/minsh/047.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/047.mp3', 'سورة محمد')" class="btn">تحميل</button>
+                    <button onclick="share('سورة محمد')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 48 - سورة الفتح -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الفتح</h3>
+                <audio id="surah-048" src="https://server10.mp3quran.net/minsh/048.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/048.mp3', 'سورة الفتح')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الفتح')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 49 - سورة الحجرات -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الحجرات</h3>
+                <audio id="surah-049" src="https://server10.mp3quran.net/minsh/049.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/049.mp3', 'سورة الحجرات')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الحجرات')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 50 - سورة ق -->
+            <div class="recitation-card animate-card">
+                <h3>سورة ق</h3>
+                <audio id="surah-050" src="https://server10.mp3quran.net/minsh/050.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/050.mp3', 'سورة ق')" class="btn">تحميل</button>
+                    <button onclick="share('سورة ق')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 51 - سورة الذاريات -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الذاريات</h3>
+                <audio id="surah-051" src="https://server10.mp3quran.net/minsh/051.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/051.mp3', 'سورة الذاريات')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الذاريات')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 52 - سورة الطور -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الطور</h3>
+                <audio id="surah-052" src="https://server10.mp3quran.net/minsh/052.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/052.mp3', 'سورة الطور')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الطور')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 53 - سورة النجم -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النجم</h3>
+                <audio id="surah-053" src="https://server10.mp3quran.net/minsh/053.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/053.mp3', 'سورة النجم')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النجم')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 54 - سورة القمر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة القمر</h3>
+                <audio id="surah-054" src="https://server10.mp3quran.net/minsh/054.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/054.mp3', 'سورة القمر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة القمر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 55 - سورة الرحمن -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الرحمن</h3>
+                <audio id="surah-055" src="https://server10.mp3quran.net/minsh/055.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/055.mp3', 'سورة الرحمن')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الرحمن')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 56 - سورة الواقعة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الواقعة</h3>
+                <audio id="surah-056" src="https://server10.mp3quran.net/minsh/056.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/056.mp3', 'سورة الواقعة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الواقعة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 57 - سورة الحديد -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الحديد</h3>
+                <audio id="surah-057" src="https://server10.mp3quran.net/minsh/057.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/057.mp3', 'سورة الحديد')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الحديد')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 58 - سورة المجادلة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المجادلة</h3>
+                <audio id="surah-058" src="https://server10.mp3quran.net/minsh/058.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/058.mp3', 'سورة المجادلة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المجادلة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 59 - سورة الحشر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الحشر</h3>
+                <audio id="surah-059" src="https://server10.mp3quran.net/minsh/059.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/059.mp3', 'سورة الحشر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الحشر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 60 - سورة الممتحنة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الممتحنة</h3>
+                <audio id="surah-060" src="https://server10.mp3quran.net/minsh/060.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/060.mp3', 'سورة الممتحنة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الممتحنة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 61 - سورة الصف -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الصف</h3>
+                <audio id="surah-061" src="https://server10.mp3quran.net/minsh/061.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/061.mp3', 'سورة الصف')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الصف')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 62 - سورة الجمعة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الجمعة</h3>
+                <audio id="surah-062" src="https://server10.mp3quran.net/minsh/062.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/062.mp3', 'سورة الجمعة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الجمعة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 63 - سورة المنافقون -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المنافقون</h3>
+                <audio id="surah-063" src="https://server10.mp3quran.net/minsh/063.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/063.mp3', 'سورة المنافقون')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المنافقون')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 64 - سورة التغابن -->
+            <div class="recitation-card animate-card">
+                <h3>سورة التغابن</h3>
+                <audio id="surah-064" src="https://server10.mp3quran.net/minsh/064.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/064.mp3', 'سورة التغابن')" class="btn">تحميل</button>
+                    <button onclick="share('سورة التغابن')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 65 - سورة الطلاق -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الطلاق</h3>
+                <audio id="surah-065" src="https://server10.mp3quran.net/minsh/065.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/065.mp3', 'سورة الطلاق')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الطلاق')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 66 - سورة التحريم -->
+            <div class="recitation-card animate-card">
+                <h3>سورة التحريم</h3>
+                <audio id="surah-066" src="https://server10.mp3quran.net/minsh/066.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/066.mp3', 'سورة التحريم')" class="btn">تحميل</button>
+                    <button onclick="share('سورة التحريم')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 67 - سورة الملك -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الملك</h3>
+                <audio id="surah-067" src="https://server10.mp3quran.net/minsh/067.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/067.mp3', 'سورة الملك')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الملك')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 68 - سورة القلم -->
+            <div class="recitation-card animate-card">
+                <h3>سورة القلم</h3>
+                <audio id="surah-068" src="https://server10.mp3quran.net/minsh/068.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/068.mp3', 'سورة القلم')" class="btn">تحميل</button>
+                    <button onclick="share('سورة القلم')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 69 - سورة الحاقة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الحاقة</h3>
+                <audio id="surah-069" src="https://server10.mp3quran.net/minsh/069.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/069.mp3', 'سورة الحاقة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الحاقة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 70 - سورة المعارج -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المعارج</h3>
+                <audio id="surah-070" src="https://server10.mp3quran.net/minsh/070.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/070.mp3', 'سورة المعارج')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المعارج')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 71 - سورة نوح -->
+            <div class="recitation-card animate-card">
+                <h3>سورة نوح</h3>
+                <audio id="surah-071" src="https://server10.mp3quran.net/minsh/071.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/071.mp3', 'سورة نوح')" class="btn">تحميل</button>
+                    <button onclick="share('سورة نوح')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 72 - سورة الجن -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الجن</h3>
+                <audio id="surah-072" src="https://server10.mp3quran.net/minsh/072.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/072.mp3', 'سورة الجن')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الجن')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 73 - سورة المزمل -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المزمل</h3>
+                <audio id="surah-073" src="https://server10.mp3quran.net/minsh/073.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/073.mp3', 'سورة المزمل')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المزمل')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 74 - سورة المدثر -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المدثر</h3>
+                <audio id="surah-074" src="https://server10.mp3quran.net/minsh/074.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/074.mp3', 'سورة المدثر')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المدثر')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 75 - سورة القيامة -->
+            <div class="recitation-card animate-card">
+                <h3>سورة القيامة</h3>
+                <audio id="surah-075" src="https://server10.mp3quran.net/minsh/075.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/075.mp3', 'سورة القيامة')" class="btn">تحميل</button>
+                    <button onclick="share('سورة القيامة')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 76 - سورة الإنسان -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الإنسان</h3>
+                <audio id="surah-076" src="https://server10.mp3quran.net/minsh/076.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/076.mp3', 'سورة الإنسان')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الإنسان')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 77 - سورة المرسلات -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المرسلات</h3>
+                <audio id="surah-077" src="https://server10.mp3quran.net/minsh/077.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/077.mp3', 'سورة المرسلات')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المرسلات')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 78 - سورة النبأ -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النبأ</h3>
+                <audio id="surah-078" src="https://server10.mp3quran.net/minsh/078.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/078.mp3', 'سورة النبأ')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النبأ')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 79 - سورة النازعات -->
+            <div class="recitation-card animate-card">
+                <h3>سورة النازعات</h3>
+                <audio id="surah-079" src="https://server10.mp3quran.net/minsh/079.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/079.mp3', 'سورة النازعات')" class="btn">تحميل</button>
+                    <button onclick="share('سورة النازعات')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 80 - سورة عبس -->
+            <div class="recitation-card animate-card">
+                <h3>سورة عبس</h3>
+                <audio id="surah-080" src="https://server10.mp3quran.net/minsh/080.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/080.mp3', 'سورة عبس')" class="btn">تحميل</button>
+                    <button onclick="share('سورة عبس')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 81 - سورة التكوير -->
+            <div class="recitation-card animate-card">
+                <h3>سورة التكوير</h3>
+                <audio id="surah-081" src="https://server10.mp3quran.net/minsh/081.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/081.mp3', 'سورة التكوير')" class="btn">تحميل</button>
+                    <button onclick="share('سورة التكوير')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 82 - سورة الانفطار -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الانفطار</h3>
+                <audio id="surah-082" src="https://server10.mp3quran.net/minsh/082.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/082.mp3', 'سورة الانفطار')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الانفطار')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 83 - سورة المطففين -->
+            <div class="recitation-card animate-card">
+                <h3>سورة المطففين</h3>
+                <audio id="surah-083" src="https://server10.mp3quran.net/minsh/083.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/083.mp3', 'سورة المطففين')" class="btn">تحميل</button>
+                    <button onclick="share('سورة المطففين')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 84 - سورة الانشقاق -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الانشقاق</h3>
+                <audio id="surah-084" src="https://server10.mp3quran.net/minsh/084.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/084.mp3', 'سورة الانشقاق')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الانشقاق')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 85 - سورة البروج -->
+            <div class="recitation-card animate-card">
+                <h3>سورة البروج</h3>
+                <audio id="surah-085" src="https://server10.mp3quran.net/minsh/085.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/085.mp3', 'سورة البروج')" class="btn">تحميل</button>
+                    <button onclick="share('سورة البروج')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+            <!-- 86 - سورة الطارق -->
+            <div class="recitation-card animate-card">
+                <h3>سورة الطارق</h3>
+                <audio id="surah-086" src="https://server10.mp3quran.net/minsh/086.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                <p style="display:none; color:red;">الملف غير متوفر</p>
+                <div class="recitation-actions">
+                    <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/086.mp3', 'سورة الطارق')" class="btn">تحميل</button>
+                    <button onclick="share('سورة الطارق')" class="btn">مشاركة</button>
+                </div>
+            </div>
+
+                        <!-- 87 - سورة الأعلى (من هنا نكمل) -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الأعلى</h3>
+                            <audio id="surah-087" src="https://server10.mp3quran.net/minsh/087.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/087.mp3', 'سورة الأعلى')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الأعلى')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 88 - سورة الغاشية -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الغاشية</h3>
+                            <audio id="surah-088" src="https://server10.mp3quran.net/minsh/088.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/088.mp3', 'سورة الغاشية')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الغاشية')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 89 - سورة الفجر -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الفجر</h3>
+                            <audio id="surah-089" src="https://server10.mp3quran.net/minsh/089.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/089.mp3', 'سورة الفجر')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الفجر')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 90 - سورة البلد -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة البلد</h3>
+                            <audio id="surah-090" src="https://server10.mp3quran.net/minsh/090.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/090.mp3', 'سورة البلد')" class="btn">تحميل</button>
+                                <button onclick="share('سورة البلد')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 91 - سورة الشمس -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الشمس</h3>
+                            <audio id="surah-091" src="https://server10.mp3quran.net/minsh/091.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/091.mp3', 'سورة الشمس')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الشمس')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 92 - سورة الليل -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الليل</h3>
+                            <audio id="surah-092" src="https://server10.mp3quran.net/minsh/092.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/092.mp3', 'سورة الليل')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الليل')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 93 - سورة الضحى -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الضحى</h3>
+                            <audio id="surah-093" src="https://server10.mp3quran.net/minsh/093.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/093.mp3', 'سورة الضحى')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الضحى')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 94 - سورة الشرح -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الشرح</h3>
+                            <audio id="surah-094" src="https://server10.mp3quran.net/minsh/094.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/094.mp3', 'سورة الشرح')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الشرح')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 95 - سورة التين -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة التين</h3>
+                            <audio id="surah-095" src="https://server10.mp3quran.net/minsh/095.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/095.mp3', 'سورة التين')" class="btn">تحميل</button>
+                                <button onclick="share('سورة التين')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 96 - سورة العلق -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة العلق</h3>
+                            <audio id="surah-096" src="https://server10.mp3quran.net/minsh/096.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/096.mp3', 'سورة العلق')" class="btn">تحميل</button>
+                                <button onclick="share('سورة العلق')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 97 - سورة القدر -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة القدر</h3>
+                            <audio id="surah-097" src="https://server10.mp3quran.net/minsh/097.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/097.mp3', 'سورة القدر')" class="btn">تحميل</button>
+                                <button onclick="share('سورة القدر')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 98 - سورة البينة -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة البينة</h3>
+                            <audio id="surah-098" src="https://server10.mp3quran.net/minsh/098.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/098.mp3', 'سورة البينة')" class="btn">تحميل</button>
+                                <button onclick="share('سورة البينة')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 99 - سورة الزلزلة -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الزلزلة</h3>
+                            <audio id="surah-099" src="https://server10.mp3quran.net/minsh/099.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/099.mp3', 'سورة الزلزلة')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الزلزلة')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 100 - سورة العاديات -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة العاديات</h3>
+                            <audio id="surah-100" src="https://server10.mp3quran.net/minsh/100.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/100.mp3', 'سورة العاديات')" class="btn">تحميل</button>
+                                <button onclick="share('سورة العاديات')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 101 - سورة القارعة -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة القارعة</h3>
+                            <audio id="surah-101" src="https://server10.mp3quran.net/minsh/101.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/101.mp3', 'سورة القارعة')" class="btn">تحميل</button>
+                                <button onclick="share('سورة القارعة')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 102 - سورة التكاثر -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة التكاثر</h3>
+                            <audio id="surah-102" src="https://server10.mp3quran.net/minsh/102.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/102.mp3', 'سورة التكاثر')" class="btn">تحميل</button>
+                                <button onclick="share('سورة التكاثر')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 103 - سورة العصر -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة العصر</h3>
+                            <audio id="surah-103" src="https://server10.mp3quran.net/minsh/103.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/103.mp3', 'سورة العصر')" class="btn">تحميل</button>
+                                <button onclick="share('سورة العصر')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 104 - سورة الهمزة -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الهمزة</h3>
+                            <audio id="surah-104" src="https://server10.mp3quran.net/minsh/104.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/104.mp3', 'سورة الهمزة')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الهمزة')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 105 - سورة الفيل -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الفيل</h3>
+                            <audio id="surah-105" src="https://server10.mp3quran.net/minsh/105.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/105.mp3', 'سورة الفيل')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الفيل')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 106 - سورة قريش -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة قريش</h3>
+                            <audio id="surah-106" src="https://server10.mp3quran.net/minsh/106.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/106.mp3', 'سورة قريش')" class="btn">تحميل</button>
+                                <button onclick="share('سورة قريش')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 107 - سورة الماعون -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الماعون</h3>
+                            <audio id="surah-107" src="https://server10.mp3quran.net/minsh/107.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/107.mp3', 'سورة الماعون')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الماعون')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 108 - سورة الكوثر -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الكوثر</h3>
+                            <audio id="surah-108" src="https://server10.mp3quran.net/minsh/108.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/108.mp3', 'سورة الكوثر')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الكوثر')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 109 - سورة الكافرون -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الكافرون</h3>
+                            <audio id="surah-109" src="https://server10.mp3quran.net/minsh/109.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/109.mp3', 'سورة الكافرون')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الكافرون')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 110 - سورة النصر -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة النصر</h3>
+                            <audio id="surah-110" src="https://server10.mp3quran.net/minsh/110.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/110.mp3', 'سورة النصر')" class="btn">تحميل</button>
+                                <button onclick="share('سورة النصر')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 111 - سورة المسد -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة المسد</h3>
+                            <audio id="surah-111" src="https://server10.mp3quran.net/minsh/111.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/111.mp3', 'سورة المسد')" class="btn">تحميل</button>
+                                <button onclick="share('سورة المسد')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 112 - سورة الإخلاص -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الإخلاص</h3>
+                            <audio id="surah-112" src="https://server10.mp3quran.net/minsh/112.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/112.mp3', 'سورة الإخلاص')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الإخلاص')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 113 - سورة الفلق -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الفلق</h3>
+                            <audio id="surah-113" src="https://server10.mp3quran.net/minsh/113.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/113.mp3', 'سورة الفلق')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الفلق')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- 114 - سورة الناس -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الناس</h3>
+                            <audio id="surah-114" src="https://server10.mp3quran.net/minsh/114.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/114.mp3', 'سورة الناس')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الناس')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- قسم منشاويات جديد -->
+                <section class="recitations animate-section">
+                    <h2>منشاويات مختارة</h2>
+                    <p class="intro-text">تلاوات خاشعة ومميزة للشيخ محمد صديق المنشاوي.</p>
+                    <div class="recitation-grid">
+                        <!-- تلاوة سورة يوسف -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة يوسف</h3>
+                            <audio id="special-001" src="https://server10.mp3quran.net/minsh/012.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/012.mp3', 'سورة يوسف - المنشاوي')" class="btn">تحميل</button>
+                                <button onclick="share('سورة يوسف - المنشاوي')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- تلاوة سورة الكهف -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الكهف</h3>
+                            <audio id="special-002" src="https://server10.mp3quran.net/minsh/018.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/018.mp3', 'سورة الكهف - المنشاوي')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الكهف - المنشاوي')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- تلاوة سورة الرحمن -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الرحمن</h3>
+                            <audio id="special-003" src="https://server10.mp3quran.net/minsh/055.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/055.mp3', 'سورة الرحمن - المنشاوي')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الرحمن - المنشاوي')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- تلاوة سورة مريم -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة مريم</h3>
+                            <audio id="special-004" src="https://server10.mp3quran.net/minsh/019.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/019.mp3', 'سورة مريم - المنشاوي')" class="btn">تحميل</button>
+                                <button onclick="share('سورة مريم - المنشاوي')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+            
+                        <!-- تلاوة سورة الملك -->
+                        <div class="recitation-card animate-card">
+                            <h3>سورة الملك</h3>
+                            <audio id="special-005" src="https://server10.mp3quran.net/minsh/067.mp3" controls onerror="this.nextElementSibling.style.display='block'"></audio>
+                            <p style="display:none; color:red;">الملف غير متوفر</p>
+                            <div class="recitation-actions">
+                                <button onclick="downloadAudio('https://server10.mp3quran.net/minsh/067.mp3', 'سورة الملك - المنشاوي')" class="btn">تحميل</button>
+                                <button onclick="share('سورة الملك - المنشاوي')" class="btn">مشاركة</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <button id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+                <footer class="animate-footer">
+                    <p>جميع الحقوق محفوظة © 2025 -Developed By: Mohamed Emad </p>
+                </footer>
+            
+                <script src="script.js"></script>
+            </body>
+            </html>
